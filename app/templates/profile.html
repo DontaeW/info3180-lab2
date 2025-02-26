@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="container-fluid pt-5 pb-5" id="profile-colour">
+    <img src="{{ url_for('static', filename='mypicture.jpg') }}" class="profile-photo">
+    <h1>Dontae Whitely</h1>
+    <h5>@dontaewhitely</h5>
+    <h5>Portmore, Jamaica</h5>
+    <h5>{{ datejoined }}</h5>
+</div>
+
+<div class="container-fluid" id="profile-back-drop">
+
+    <p id="bio">
+        Hello, my name is Dontae, and I am a final-year electronics and computer science student.
+        <br>I am a fan of the football club Barcelona, and I enjoy going to car meets.
+    </p>
+
+    <div id="profile-numbers">
+        <div class="prof-nums">
+            <p class="profile-num">4</p>
+            <p class="profile-text">Posts</p>
+        </div>
+
+        <div class="prof-nums">
+            <p class="profile-num">1000</p>
+            <p class="profile-text">Following</p>
+        </div>
+
+        <div class="prof-nums">
+            <p class="profile-num">3000</p>
+            <p class="profile-text">Followers</p>
+        </div>
+
+    </div>
+
+    <button id="follow-btn">
+        Follow
+    </button>
+
+</div>
+
+{% endblock %}

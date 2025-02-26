@@ -1,3 +1,90 @@
 body {
     padding-top: 5rem;
 }
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+#profile-colour {
+    color: white;
+    background-image: radial-gradient(circle, #77cc77, #4d6a4d);
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+#profile-colour h1, 
+#profile-colour h5 {
+    text-shadow: 2px 2px 5px black;
+}
+
+
+#profile-colour h1 {
+    font-weight: bold;
+}
+
+.profile-photo {
+    width: 20%;
+    height: 20%;
+    border-radius: 200px;
+    box-shadow: 10px 10px 40px black;
+}
+
+#profile-back-drop {
+    text-align: center;
+}
+
+#profile-back-drop p{
+    color:silver;
+}
+
+#bio {
+    margin: auto 25%;
+    text-align: left;
+}
+
+#profile-numbers {
+    column-gap: 5%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.profile-num {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    color:black;
+    margin: auto;
+}
+
+.profile-text {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#follow-btn {
+    margin: 1% auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: chartreuse;
+    color: white;
+    padding: 5px 5%;
+    border: 3px solid #ffffff;
+}
+
+#profile-numbers .profile-num {
+    color: black !important;
+}
+
